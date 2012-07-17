@@ -16,5 +16,6 @@ public class MainActivity extends AndroidApplication {
         cfg.useCompass = false;
         
         initialize(new Drop(), cfg);
+	//commit from pc
     }
 }
