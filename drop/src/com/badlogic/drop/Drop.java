@@ -109,6 +109,8 @@ public class Drop implements ApplicationListener {
 	      if(bucket.x < 0) bucket.x = 0;
 	      if(bucket.x > 800 - 48) bucket.x = 800 - 48;
 	      
+	      //commit
+	      
 	      // check if we need to create a new raindrop
 	      if(TimeUtils.nanoTime() - lastDropTime > 1000000000) spawnRaindrop();
 	      
