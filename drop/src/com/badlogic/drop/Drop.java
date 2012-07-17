@@ -93,6 +93,7 @@ public class Drop implements ApplicationListener {
 	         batch.draw(dropImage, raindrop.x, raindrop.y);
 	      }
 	      batch.end();
+	      //
 	      
 	      // process user input
 	      if(Gdx.input.isTouched()) {
